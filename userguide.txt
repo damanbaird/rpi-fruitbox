@@ -1896,12 +1896,12 @@
   Automatically run fruitbox on power up
   --------------------------------------
   
-  To run fruitbox automatically on power up, add the following 
+  
+  
+  To run fruitbox automatically on power up, copy all files from rpi-fruitbox-master to /home/"user" and then add the following 
   lines to ~/.bashrc :
   
-   cd <directory where fruitbox is installed>
-   sudo ./fruitbox --cfg <your cfg file>
-  
+  sudo ./fruitbox --cfg /skins/"SKIN"/fruitbox.cfg
   
   Automatically mount USB memory stick on power up
   ------------------------------------------------
